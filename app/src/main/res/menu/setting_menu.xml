@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.Setting.SettingActivity">
+
+    <item android:id="@+id/aboutus"
+        android:title="About Us"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/terms_id"
+        android:title="Terms of Services"/>
+
+    <item
+        android:id="@+id/dataid"
+        android:title="Data Policies"/>
+
+    <item
+        android:id="@+id/helpid"
+        android:title="Help and Support"/>
+
+    <item
+        android:id="@+id/signout"
+        android:title="Sign Out"/>
+
+
+
+</menu>
